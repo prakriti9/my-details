@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.navbar-brand {
+  font-weight: 700;
+  padding-left: 2em;
+}
+.navbar {
+  background: rgb(33, 4, 161) !important;
+}
+.right-nav {
+  padding-right: 2em;
+}
+.right-nav a {
+  font-weight: 600;
+  padding-left: 2.5em;
+  color: white;
+}
+.icon-bar {
+  color: white;
+}
+.navbar-toggler {
+  color: white;
+}
+section {
+  padding: 100px 200px;
+}
+.container{
+  display: inline-flexbox;
+}
+.container .content{
+  float: left;
+}
+.container .myImg{
+  float: right;
+}
+.main_content {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  /* border: 2px solid black; */
+
+  align-items: center;
+}
+.pic {
+  width: 14em;
+  height: 14em;
+   
+  border-radius: 50%;
+  /* margin-left: 40vh; */
+}
+.main_content .content {
+  max-width: 800px;
+}
+.main_content .content h3 {
+  font-size: 2em;
+  font-weight: 500;
+}
+.main_content .content h3 span {
+  font-size: 2.8em;
+  font-weight: 600;
+}
+.animated-main {
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+}
+.animated-main h3 {
+  color: rgb(33, 4, 161);
+  font-size: 2em;
+  font-weight: bolder;
+  line-height: 70px;
+  letter-spacing: 1px;
+}
+.animated-main h3:nth-child(1) {
+  animation: text-move 10s infinite;
+}
+.butt {
+  color: #fff;
+  background: rgb(33, 4, 161);
+  font-size: 1em;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+  
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  transition: 0.5s ease;
+}
+#about{
+  width: 90vw;
+  align-items: center;
+
+}
+section h2{
+  color: rgb(2, 2, 165);
+  font-weight: 600;
+  text-decoration: underline;
+}
+#about div{
+  /* line-height: 1px; */
+  line-height: 1.8em;
+}
+#skills i{
+  padding: 1.2em;
+}
+#skills button{
+  margin: 1.2em;
+}
+.butt:hover {
+  border: 2px solid rgb(2, 2, 165);
+  background-color: white;
+  color: rgb(2, 2, 165);
+}
+.skills-set a{
+  padding: 10px 20px;
+  background: rgb(2, 2, 165);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-left: 2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+.skills-set a:hover{
+  border: none;
+  background-color: white;
+  color: rgb(2, 2, 165);
+  text-decoration: underline;
+}
+.social-media {
+  margin-top: 50px;
+  padding: 1.2em;
+}
+.btn{
+  background-color: rgb(2, 2, 165) !important;
+}
+.social-media a {
+  /* color: rgb(2, 2, 165); */
+  font-size: 25px;
+  margin-right: 30px;
+  
+}
+footer{
+  width: 100%;
+  height: auto;
+  background-color: rgb(41, 36, 36);
+  color: white;
+  padding: 2.5em;
+}
+@keyframes text-move {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -70px;
+  }
+  50% {
+    margin-top: -140px;
+  }
+  75% {
+    margin-top: -70px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
